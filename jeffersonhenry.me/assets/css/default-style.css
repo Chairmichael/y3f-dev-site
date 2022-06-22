@@ -1,0 +1,108 @@
+html {
+    background-color: #2b2a33;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+body {
+    text-align: left;
+    background: linear-gradient( rgba(43, 42, 51, 0.5), rgba(43, 42, 51, 0.5) ),
+        url("https://i.imgur.com/oDk4vjl.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+
+    color: #E6EEE9;
+    /*font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;*/
+    font-family: serif;
+    font-size: 1vw;
+    display:table-cell;
+    max-height: 100%;
+}
+
+main {
+    width: 100%;
+    /* max-width: 20em; */
+    /*padding-top: 0.5em;*/
+    margin-left: auto;
+    margin-right: auto;
+    border-left-style: solid;
+    border-color: #3D5155;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.5em;
+    color: #E6E6BD;
+/*
+    background-color: rgba(0,0,0,0.75);
+*/
+}
+
+header {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+
+}
+
+h1.title {
+    font-size: 4em;
+    /*color: #3D5155;*/
+    font-family: monospace;
+    margin: 0;
+}
+footer {
+    width: 100%;
+    padding-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+footer h1.title {
+    text-align: left;
+}
+
+
+p {
+    text-align:left;
+}
+
+a {
+    /*color: #599FA7;*/
+    text-decoration: none;
+}
+
+a:hover {
+    /*color: #3D5155;*/
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 2.5vw;
+    }
+    main, header, footer {
+        max-width: 100%;
+    }
+}
+/*
+@media screen and (min-width:401px) and (max-width:500px) {
+    main, header, footer {
+        max-width: 90%;
+    }
+}
+@media screen and (min-width:501px) and (max-width:900px) {
+    main, header, footer {
+        max-width: 80%;
+    }
+}
+*/
+@media screen and (min-width:601px) {
+    body {
+        font-size: 1vw;
+    }
+    main, header, footer {
+        max-width: 60%;
+    }
+}
